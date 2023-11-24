@@ -13,7 +13,7 @@ class Splashpage extends StatefulWidget {
 class _SplashpageState extends State<Splashpage> {
   @override
   void initState() {
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> Whatsappclone()));
     });
   }
